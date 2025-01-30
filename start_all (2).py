@@ -5,8 +5,8 @@ from datetime import datetime
 import requests
 
 # Пути к файлам
-ENV_FILE = "/home/veronicaplus/public_html/wp-content/uploads/scripts/.cron_env"
-LOG_FILE = "/home/veronicaplus/public_html/wp-content/uploads/scripts/fetch_services_log.txt"
+ENV_FILE = "/home/public_html/wp-content/uploads/scripts/.cron_env"
+LOG_FILE = "/home/public_html/wp-content/uploads/scripts/fetch_services_log.txt"
 
 # Файл с токеном
 UPDATE_TOKEN_SCRIPT = "update_token.py"
@@ -89,4 +89,4 @@ if __name__ == "__main__":
     log_message("--- Завершение выполнения процесса ---")
 
     # Отправка уведомления в Telegram
-    send_telegram_message(f"<b>✅ Оновлення завершено!</b>\nДані оновлені в `services-202406061830.txt`")
+    send_telegram_message(f"<b>✅ Оновлення завершено!</b>\nДані оновлені в `services.txt`")
