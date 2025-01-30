@@ -2,8 +2,8 @@ import os
 import requests
 
 # Путь к файлу окружения
-ENV_FILE = "/home/veronicaplus/public_html/wp-content/uploads/scripts/.cron_env"
-LOG_FILE = "/home/veronicaplus/public_html/wp-content/uploads/scripts/update_token_log.txt"
+ENV_FILE = "/home/public_html/wp-content/uploads/scripts/.cron_env"
+LOG_FILE = "/home/public_html/wp-content/uploads/scripts/update_token_log.txt"
 
 # Функция для записи логов
 def log_message(message):
