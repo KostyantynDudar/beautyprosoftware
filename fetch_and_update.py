@@ -5,10 +5,10 @@ import shutil
 from datetime import datetime
 
 # Пути к файлам
-TOKEN_FILE = "/home/veronicaplus/public_html/wp-content/uploads/scripts/.cron_env"
-OUTPUT_FILE = "/home/veronicaplus/public_html/wp-content/uploads/scripts/services.json"
-MAIN_FILE = "/home/veronicaplus/public_html/wp-content/uploads/2024/06/services-202406061830.txt"
-LOG_FILE = "/home/veronicaplus/public_html/wp-content/uploads/scripts/fetch_update_log.txt"
+TOKEN_FILE = "/home/public_html/wp-content/uploads/scripts/.cron_env"
+OUTPUT_FILE = "/home/public_html/wp-content/uploads/scripts/services.json"
+MAIN_FILE = "/home/public_html/wp-content/uploads/2024/06/services.txt"
+LOG_FILE = "/home/public_html/wp-content/uploads/scripts/fetch_update_log.txt"
 
 # API параметры
 API_URL = "https://api.aihelps.com/v1/services?fields=name,descriptionPlainText,location_prices,price_currency,category,archive,public,duration,gender"
